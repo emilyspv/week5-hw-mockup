@@ -1,0 +1,97 @@
+* { margin: 0;
+    padding: 0;}
+
+/* Global styles */
+body {margin: 1rem;
+      font-family: "Josefin Sans", sans-serif;}
+
+li {font-size: 1.2rem;
+    list-style: none;
+    text-transform: uppercase;}
+
+a:link {text-decoration: none;}
+
+/* Header styles */
+
+header {background-color: hsla(75, 71%, 64%, 1);
+        text-transform: uppercase;}
+
+header h1 { font-size: 2.5rem;
+            font-weight: 300;
+            padding-top: 2rem;
+            padding-left: 1rem;}
+header p {font-size: 1.2rem;
+          padding-top: 0.4rem;
+          padding-left: 1rem;}
+
+header nav {background-color: white;
+            margin-top: 3rem;
+            padding-left: 3.4rem;}
+
+header li { display: inline-block;
+            padding-right: 4rem;
+            padding-top: 0.8rem;
+            padding-bottom: 0.7rem;}
+
+header a:link {color: black;}
+
+/* Sidebar styles */
+
+.sidebar nav {width: 30%;}
+
+.sidebar {float: left;}
+
+.sidebar nav {background-color: hsla(174, 75%, 64%, 1);
+              padding-top: 3rem;
+              padding-bottom: 3rem;}
+
+.sidebar li { color: white;
+              padding: 1rem 3.4rem;}
+.sidebar a:link {color: white;}
+
+.sidebar div {background-color: hsla(195, 75%, 64%, 1);
+              min-height: 1rem;}
+
+.bluebox {width: 30%;
+          margin-top: 1rem;}
+
+/* Content area styles */
+
+article { float: right;
+          width: 70%;}
+
+article h2 {font-size: 1.8rem;
+            color: white;
+            background-color: hsla(52, 71%, 64%, 1);
+            text-transform: uppercase;
+            padding: 1.8rem 3.4rem;
+            margin-bottom: 2rem;}
+
+article p { padding: 0.8rem 3.4rem;
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight: 200;}
+
+/* Footer styles */
+
+footer {float: right;
+        width: 70%;
+        background-color: hsla(0, 0%, 70%, 1);
+        padding: 0.5rem;
+        margin-bottom: 1rem;}
+
+footer i {float: right;
+          color: hsla(0, 0%, 70%, 1);}
+
+footer i {position: relative;}
+
+.bigger { font-size: 2rem;
+          color: hsla(0, 0%, 15%, 1);
+          padding-left: 1rem;
+          padding-right: 0;}
+
+.stackme {position: relative;
+          right: 1.2rem;
+          bottom: -0.5rem;
+          z-index: 1}
+
+.fa-github {padding-left: 0.5rem;}
