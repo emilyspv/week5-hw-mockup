@@ -2,6 +2,7 @@
     padding: 0;}
 
 /* Global styles */
+
 body {margin: 1rem;
       font-family: "Josefin Sans", sans-serif;}
 
@@ -20,6 +21,7 @@ header h1 { font-size: 2.5rem;
             font-weight: 300;
             padding-top: 2rem;
             padding-left: 1rem;}
+
 header p {font-size: 1.2rem;
           padding-top: 0.4rem;
           padding-left: 1rem;}
@@ -42,13 +44,13 @@ aside { width: 25%;
         max-height: 35rem;
         overflow: hidden;}
 
-aside nav {width: 100%;
-              background-color: hsla(174, 75%, 64%, 1);
-              padding-top: 2rem;
-              padding-bottom: 3rem;}
+aside nav { width: 100%;
+            background-color: hsla(174, 75%, 64%, 1);
+            padding-top: 2rem;
+            padding-bottom: 3rem;}
 
-aside li { color: white;
-              padding: 1rem 3.4rem;}
+aside li {color: white;
+          padding: 1rem 3.4rem;}
 
 aside a:link {color: white;}
 
@@ -89,8 +91,7 @@ footer {background-color: hsla(0, 0%, 70%, 1);
         height: 2rem;
         margin-top: 3rem;
         margin-left: 1rem;
-        padding: 0.2rem;
-        overflow: hidden;}
+        padding: 0.2rem;}
 
 footer i {color: hsla(0, 0%, 15%, 1);
           float: right;
